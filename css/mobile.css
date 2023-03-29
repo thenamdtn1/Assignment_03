@@ -1,0 +1,104 @@
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  nav .bar {
+    display: inline;
+    border: none;
+  }
+  .nav-bar-tr {
+    display: block;
+  }
+
+  .nav-bar-nav {
+    border: none;
+  }
+
+  .container-nav {
+    display: block;
+    padding-left: 40px;
+  }
+  .thongtin {
+    display: none;
+  }
+
+  /* info */
+  #info {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: left;
+  }
+  #target,
+  #personal-info {
+    padding-left: 0;
+    margin-top: 40px;
+    width: 80%;
+  }
+
+  #job-info .container-job {
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-chiabang {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  #project .container-job {
+    grid-template-columns: 1fr;
+  }
+
+  /* chứng chỉ giai thuong */
+  .certificate-chiabang {
+    display: block;
+    padding-left: 40px;
+    width: 70%;
+  }
+  .certificate-img-boder {
+    border-left: none;
+  }
+
+  .job-info {
+    width: 70%;
+    justify-content: center;
+  }
+
+  /* so thich */
+  .sothich {
+    grid-template-columns: repeat(4, 25%);
+  }
+
+  /* du an mobile */
+  .imggt {
+    width: 80%;
+  }
+  .img-duan {
+    width: 80%;
+  }
+  .duan {
+    width: 100%;
+    font-size: 100%;
+  }
+
+  /* footer */
+  .footer {
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  /* digital */
+  #digital .container {
+    width: 60%;
+  }
+  .back {
+    width: 50%;
+    height: auto;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}

@@ -1,0 +1,97 @@
+@media screen and (max-width: 992px) {
+  body {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  #info {
+    padding-top: 40px;
+  }
+
+  #job-info .container-job {
+    grid-template-columns: 1fr 1fr;
+  }
+  .avta {
+    display: none;
+  }
+  .thongtin {
+    width: 50px;
+    height: 34px;
+  }
+
+  .certificate-chiabang {
+    grid-template-columns: repeat(2, 50%);
+    gap: 10px;
+  }
+
+  .certificate-img {
+    display: block;
+  }
+  .chiabang_lech {
+    margin: 0 auto;
+  }
+
+  .sothich {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 20% 80%;
+  }
+
+  /* du an */
+  #certificate,
+  #project {
+    padding-top: 30px;
+  }
+  .container-duan {
+    gap: 0;
+    grid-template-columns: repeat(3, 33%);
+  }
+  /* .imggt {
+    width: 100%;
+  }
+  .img-duan {
+    width: 100%;
+  } */
+
+  .imggt {
+    width: 80%;
+  }
+  .img-duan {
+    width: 80%;
+  }
+  .duan {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  /* footer */
+  .footer {
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  /* digital */
+  #digital {
+    display: block;
+    border: none;
+  }
+  #digital .container {
+    width: 100%;
+  }
+  .flex-ngang {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .goals svg,
+  .team svg,
+  .primary svg {
+    margin-left: 45%;
+  }
+}
